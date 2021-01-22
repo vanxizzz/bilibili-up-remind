@@ -24,6 +24,7 @@
 | email | Object|是🐢 |  | 配置邮箱信息（暂只支持**qq邮箱**），参考[主配置👉email配置](#jj) |
 
 ##### <span id=jj>主配置👉email配置</span>
+
 | 参数名 | 数据类型 |  必填|简单描述 |举例|
 | :----:| :----:   | :----: |  :----: |  :----: |:----: |
 | receiveEmail | String|是🐢   | 接收者的邮箱(可以填sendEmail) |abc@qq.com|
