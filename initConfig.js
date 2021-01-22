@@ -8,9 +8,6 @@ module.exports = {
     safeCode: "not🎣网站！🐢",//⭐必填，一个安全码，发送过去的邮箱内容会附带它，这样才不怕是钓鱼网站
 
     email: {//邮箱配置，暂且只支持qq邮箱
-        receiveEmail: "1050132079@qq.com",//⭐必填，接收者的邮箱，可以和发送者邮箱一致
-        sendEmail: "1050132079@qq.com",//⭐必填，发送者的邮箱
-        sendPass: "tgocnrahfpitbbag",//⭐必填，发送者邮箱的授权码，需要去找下
         html(item) {//配置邮箱内容模板
             /* 
                 author作者，bvid视频id，title视频标题，time更新的时间
