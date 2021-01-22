@@ -1,4 +1,26 @@
 {
+  "name": "bilibili-up-remind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "vanxizzz",
+    "email": "1050132079@qq.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanxizzz/bilibili-up-remind"
+  },
+  "homepage": "https://github.com/vanxizzz/bilibili-up-remind",
+  "keywords": [
+    "bilibili-up-remind",
+    "bilibili-up",
+    "bilibili"
+  ],
+  "description": "可以定时查看b站中的目标up主是否更新了，若更新了会通过发送邮箱的形式及时提醒",
   "dependencies": {
     "@types/node": "^14.14.22",
     "axios": "^0.21.1",
